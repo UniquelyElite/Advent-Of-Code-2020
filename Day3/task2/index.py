@@ -6,7 +6,6 @@ lines = forest.split("\n")
 #Get the width of the trees before they repeat
 width = len(lines[0])
 treeArray = []
-freeArray = []
 path = [[1, 1], [3, 1], [5, 1], [7, 1], [1, 2]]
 def calculate(right, down) :
     #For location of person
