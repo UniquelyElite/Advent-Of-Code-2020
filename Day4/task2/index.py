@@ -69,7 +69,6 @@ def pid(value) :
 
 #Seperate passports
 passport = ''
-passport2 = []
 line = 0
 for x in lines :
     line += 1
@@ -107,7 +106,5 @@ for x in passports :
             if response == True :
                 true += 1
     if true == 7 :
-        passport2.append(x)
         correct += 1
-print(passport2)
 print(correct, 'is the answer!')
